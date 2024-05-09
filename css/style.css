@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mea+Culpa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -2;
+}
+
+.parte-1::before {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    content: " ";
+    height: 600px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(140deg, rgba(0, 0, 0, 1) 39%, rgba(0, 0, 0, 0) 96%);
+}
+
+.parte-1 {
+    height: 600px;
+}
+
+.cabecalho .logo {
+    width: 80px;
+}
+
+.cabecalho {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__hamburguer {
+    display: none;
+}
+
+.item-lista {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.6;
+    transition: 500ms;
+}
+
+.item-lista:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+
+
+.nome1, .nome2 {
+    color: orange;
+    font-family: "Mea Culpa", cursive;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.nome2 {
+    margin: 0px 0px 20px 50%;
+}
+
+.texto {
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+.nome_texto {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.linha-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.linha {
+    width: 100vw;
+    background-color: black;
+    height: 4px;
+}
+
+
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+}
+
+.produto {
+    width: 150px;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto * {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #FFA90A;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #FFA90A;
+}
+
+.produto img {
+    width: 100px;
+}
+
+.nome-produto {
+    font-family: "Poppins";
+}
+
+.preco-produto {
+    font-size: 20px;
+}
+
+.titulo {
+    font-family: "Mea Culpa", cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.img-texto {
+    padding: 50px 20px 50px 20px;
+}
+
+.img-texto img {
+    width: 90vw;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.img-texto p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+footer {
+    background-image: url(../img/bg.jpg);
+}
+
+footer .linha, footer .titulo, footer p {
+    color: white;
+}
+
+.infos-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.linha-de-divisao {
+    margin: 80px 0px 80px 0px;
+    width: 60%;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+footer .logo{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.credenciais *{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 500;
+    outline: none;
+    border-radius: 8px;
+}
+
+.meio-de-contato  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.radio-texto {
+    display: flex;
+}
+
+.radio p {
+    font-size: 18px;
+    font-family: "Poppins";
+    margin: 0px 0px 0px 10px;
+}
+
+.meio-de-contato input {
+    margin: 0;
+}
+
+footer h3 {
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin: 20px 0px 10px 0px;
+}
+
+.radio{
+    display: flex;
+    margin: 0
+}
+
+select {
+    padding: 2px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin: 0;
+    width: 60%;
+}
+
+footer .btn {
+    margin-top: 40px;
+}
+
+.copyright {
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.copyright .item-lista {
+    margin: 5px;
+}
+
+.copyright .item-lista:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transform: translateY(0px);
+    transition: 200ms;
+}

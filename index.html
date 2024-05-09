@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <title>Barbearia Alura</title>
+</head>
+
+<body>
+
+    <section class="parte-1">
+        <img src="img/bg-img.webp" alt="imagem de fundo" class="bg-img">
+
+        <header class="cabecalho">
+            <img src="img/logo-branco.png" alt="Logo da barbearia alura" class="logo" id="logo">
+
+            <nav class="navegacao" id="navegacao">
+                <ul class="lista">
+                    <li class="item-lista">Home</li>
+                    <li class="item-lista">Produtos</li>
+                    <li class="item-lista">Contato</li>
+                </ul>
+            </nav>
+
+            <div class=" menu__hamburguer" id="menu">
+                <div class="linha__1" id="linha__1"></div>
+                <div class="linha__2" id="linha__2"></div>
+                <div class="linha__3" id="linha__3"></div>
+            </div>
+
+        </header>
+
+        <div class="nome_texto">
+            <h1 class="nome1">Barbearia</h1>
+            <h1 class="nome2">Alura</h1>
+
+            <p class="texto">A barbearria que nem todo mundo tem, mas que todo mundo merece</p>
+        </div>
+
+    </section>
+
+    <main>
+
+        <div class="linha-titulo">
+            <hr class="linha">
+            <h1 class="titulo">Produtos</h1>
+            <hr class="linha">
+        </div>
+
+        <ul class="produtos">
+
+            <div class="produto">
+
+                <img src="img/cabelo.jpg" alt="imagem do produto" class="img-produto">
+                <h3 class="nome-produto">Cabelo</h3>
+                <h3 class="preco-produto">R$ 30,00</h3>
+                <button class="btn">Agendar</button>
+
+            </div>
+
+            <div class="produto">
+
+                <img src="img/barba.jpg" alt="imagem do produto" class="img-produto">
+                <h3 class="nome-produto">Barba</h3>
+                <h3 class="preco-produto">R$ 45,00</h3>
+                <button class="btn">Agendar</button>
+
+            </div>
+
+            <div class="produto">
+
+                <img src="img/cabelo+barba.jpg" alt="imagem do produto" class="img-produto">
+                <h3 class="nome-produto">Cabelo + Barba</h3>
+                <h3 class="preco-produto">R$ 70,00</h3>
+                <button class="btn">Agendar</button>
+
+            </div>
+
+        </ul>
+
+        <div class="linha-titulo">
+            <hr class="linha">
+            <h1 class="titulo">Sobre</h1>
+            <hr class="linha">
+        </div>
+
+        <div class="img-texto">
+
+            <img src="img/banner.jpg" alt="imagem do interior da barbearia">
+            <p class="texto-sobre">Localizada No centro da cidade, nossa barbearia abriu as portas em 2010, e com o
+                passar dotempo ganhou espaço na região. Já que temos o melhor trabalho pelo melhor preço.</p>
+
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="linha-titulo">
+            <hr class="linha">
+            <h1 class="titulo">Contato</h1>
+            <hr class="linha">
+        </div>
+
+        <div class="infos-footer">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449840474898!2d-46.634520585219285!3d-23.58819478466963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a3036d251f%3A0x69403ca8c58fb332!2sEdif%C3%ADcio%20Santa%20Julia%20-%20Rua%20Vergueiro%2C%203185%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004101-300!5e0!3m2!1spt-BR!2sbr!4v1635716745251!5m2!1spt-BR!2sbr"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <hr class="linha-de-divisao">
+            
+            <div class="infos">
+
+                <img src="img/logo-branco.png" alt="logo da barbearia alura" class="logo">
+
+                <div class="credenciais">
+
+                    <input type="text" placeholder="Nome e Sobrnome">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Número: (xx) xxxxx-xxxx">
+
+                    <textarea name="text-area" id="" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
+
+                </div>
+
+
+                <div class="meio-de-contato">
+
+                    <h3>Como gostaria de receber a Mensagem?</h3>
+
+                    <label for="whatsapp" class="radio">
+                        <input type="radio" name="contato" value="whatsapp" id="whatsapp">
+                        <p>whatsapp</p>
+                    </label>
+
+                    <label for="email" class="radio">
+                        <input type="radio" name="contato" value="email" id="email">
+                        <p>Email</p>
+                    </label>
+
+                    <label for="telefone" class="radio">
+                        <input type="radio" name="contato" value="telefone" id="telefone">
+                        <p>telefone</p>
+                    </label>
+
+                    <h3>Qual será seu horário de atendimento?</h3>
+
+                    <select>
+                        <option>Manhã (7:00 ás 11:00)</option>
+                        <option>Tarde (13:00 ás 15:00)</option>
+                        <option>Noite (17:00 ás 22:00)</option>
+                    </select>
+
+                </div>
+
+                <button class="btn">Enivar Formulário</button>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <h3>Barbearia Alura &copy; 2024</h3>
+
+            <ul class="lista">
+                <li class="item-lista">Termos de uso</li>
+                <li class="item-lista">Licenças</li>
+                <li class="item-lista">Créditos</li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
