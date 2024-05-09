@@ -74,6 +74,18 @@
         height: 152px;
     }
 
+    .bg-img {
+        height: 500px;
+    }
+
+    .parte-1 {
+        height: 500px;
+    }
+
+    .parte-1::before {
+        height: 500px;
+    }
+
 /*começo do toggle*/
 
     .menu__hamburguer {
